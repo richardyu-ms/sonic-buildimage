@@ -1,6 +1,6 @@
 
 DPATH       := $($(DOCKER_PTF)_PATH)
-DEP_FILES   := $(SONIC_COMMON_FILES_LIST) platform/broadcom/docker-ptf.mk platform/broadcom/docker-ptf.dep
+DEP_FILES   := $(SONIC_COMMON_FILES_LIST) platform/barefoot/docker-ptf-brcm.mk platform/barefoot/docker-ptf-brcm.dep
 DEP_FILES   += $(SONIC_COMMON_BASE_FILES_LIST)
 DEP_FILES   += $(shell git ls-files $(DPATH))
 
